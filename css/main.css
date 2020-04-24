@@ -1,0 +1,291 @@
+.header-main {
+	margin-top: 120px;
+	transition: all 2s;
+}
+
+@media only screen and (min-width: 700px) {
+	.header-main {
+		margin-top: 80px;
+		transition: all 2s;
+    }
+}
+
+@media only screen and (min-width: 900px) {
+	.header-main {
+		margin-top: 50px;
+		transition: all 2s;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .header-main {
+		margin-top: 50px;
+		transition: all 2s;
+    }
+}  
+
+
+
+ .women {
+     color: rgb(230, 112, 131);
+
+ }
+
+ .men {
+     color: mediumaquamarine;
+ }
+
+    @-webkit-keyframes hvr-buzz {
+        50% {
+          -webkit-transform: translateX(3px) rotate(2deg);
+          transform: translateX(3px) rotate(2deg);
+        }
+        100% {
+          -webkit-transform: translateX(-3px) rotate(-2deg);
+          transform: translateX(-3px) rotate(-2deg);
+        }
+      }
+      @keyframes hvr-buzz {
+        50% {
+          -webkit-transform: translateX(3px) rotate(2deg);
+          transform: translateX(3px) rotate(2deg);
+        }
+        100% {
+          -webkit-transform: translateX(-3px) rotate(-2deg);
+          transform: translateX(-3px) rotate(-2deg);
+        }
+      }
+      .hvr-buzz {
+        display: inline-block;
+        vertical-align: middle;
+        -webkit-transform: perspective(1px) translateZ(0);
+        transform: perspective(1px) translateZ(0);
+        box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+      }
+      .hvr-buzz:hover, .hvr-buzz:focus, .hvr-buzz:active {
+        -webkit-animation-name: hvr-buzz;
+        animation-name: hvr-buzz;
+        -webkit-animation-duration: 0.15s;
+        animation-duration: 0.15s;
+        -webkit-animation-timing-function: linear;
+        animation-timing-function: linear;
+        -webkit-animation-iteration-count: infinite;
+        animation-iteration-count: infinite;
+      }
+      
+ 
+
+ 
+
+
+
+ .logo-text {
+     color:mediumaquamarine;
+     text-shadow: 1px 1px rgb(82, 87, 87);
+     font-family: cursive;
+     letter-spacing: 2px;
+     font-weight: bolder;
+ }
+
+ /*--welcome section---*/
+
+
+ .section-intro {
+     background-image: url(../images/soap.png);
+     min-height: 700px;
+     min-width: 1000px;
+     background-size: cover;
+     background-repeat: no-repeat;
+
+ }
+
+ .display-3 {
+     color: rgb(231, 241, 241);
+     font-family: cursive;
+     margin: 100px;
+ }
+
+ .btn-color {
+     background-color: mediumaquamarine;
+ }
+
+ /*---carousel--OUR TOP PRODUCTS---*/
+
+
+ .image {
+     height: fit-content;
+     width: fit-content;
+ }
+
+
+
+ /*==========women page=====*/
+
+ .women-background {
+     background-color: rgb(235, 203, 207);
+ }
+ 
+
+ /*=========men page======*/
+
+
+ .men-background {
+     background-color: rgb(187, 209, 207);
+ }
+
+ .shadow-sm {
+   background-color: rgb(59, 57, 57);
+ }
+
+ .shadow {
+   background-color:rgb(122, 130, 136);;
+   width: 50px;
+   height: 50px;
+   border-radius: 100%;
+   padding-top: 15px;
+ }
+
+ /*=========wishlist====*/
+ .cart-wrap {
+	padding: 40px 0;
+	font-family: 'Open Sans', sans-serif;
+}
+.main-heading {
+	font-size: 19px;
+  margin-bottom: 20px;
+  color: rgb(230, 112, 131);
+  text-shadow: 2px 1px rgb(105, 103, 103);
+}
+.table-wishlist table {
+    width: 100%;
+}
+.table-wishlist thead {
+    border-bottom: 1px solid #e5e5e5;
+    margin-bottom: 5px;
+}
+.table-wishlist thead tr th {
+    padding: 8px 0 18px;
+    color: #f8f1f1;
+    font-size: 15px;
+    font-weight: 400;
+}
+.table-wishlist tr td {
+    padding: 25px 0;
+    vertical-align: middle;
+}
+.table-wishlist tr td .img-product {
+    width: 72px;
+    float: left;
+    margin-left: 8px;
+    margin-right: 31px;
+    line-height: 63px;
+}
+.table-wishlist tr td .img-product img {
+	width: 100%;
+}
+.table-wishlist tr td .name-product {
+    font-size: 15px;
+    color: mediumaquamarine;
+    padding-top: 8px;
+    line-height: 24px;
+    width: 50%;
+}
+.table-wishlist tr td.price {
+    font-weight: 600;
+}
+.table-wishlist tr td .quanlity {
+    position: relative;
+}
+
+.total {
+	font-size: 24px;
+	font-weight: 600;
+	color: #8660e9;
+}
+.display-flex {
+	display: flex;
+}
+.align-center {
+	align-items: center;
+}
+.round-black-btn {
+	border-radius: 25px;
+    background: #656666;
+    color: #fff;
+    padding: 5px 20px;
+    display: inline-block;
+    border: solid 2px #212529; 
+    transition: all 0.5s ease-in-out 0s;
+    cursor: pointer;
+    font-size: 14px;
+}
+.round-black-btn:hover,
+.round-black-btn:focus {
+	background: transparent;
+	color: mediumaquamarine;
+	text-decoration: none;
+}
+.mb-10 {
+    margin-bottom: 10px !important;
+}
+.mt-30 {
+    margin-top: 30px !important;
+}
+.d-block {
+    display: block;
+}
+.custom-form label {
+    font-size: 14px;
+    line-height: 14px;
+}
+.pretty.p-default {
+    margin-bottom: 15px;
+}
+.pretty input:checked~.state.p-primary-o label:before, 
+.pretty.p-toggle .state.p-primary-o label:before {
+    border-color: #8660e9;
+}
+.pretty.p-default:not(.p-fill) input:checked~.state.p-primary-o label:after {
+    background-color: #8660e9 !important;
+}
+.main-heading.border-b {
+    border-bottom: solid 1px #ededed;
+    padding-bottom: 15px;
+    margin-bottom: 20px !important;
+}
+.custom-form .pretty .state label {
+    padding-left: 6px;
+}
+.custom-form .pretty .state label:before {
+    top: 1px;
+}
+.custom-form .pretty .state label:after {
+    top: 1px;
+}
+.custom-form .form-control {
+    font-size: 14px;
+    height: 38px;
+}
+.custom-form .form-control:focus {
+    box-shadow: none;
+}
+.custom-form textarea.form-control {
+    height: auto;
+}
+.mt-40 {
+    margin-top: 40px !important; 
+}
+.in-stock-box {
+	background: #ff0000;
+	font-size: 12px;
+	text-align: center;
+	border-radius: 25px;
+	padding: 4px 15px;
+	display: inline-block;  
+    color: #fff;
+}
+.trash-icon {
+    font-size: 20px;
+    color: rgb(230, 112, 131);
+    
+}
